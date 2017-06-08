@@ -1,0 +1,37 @@
+.container {
+  margin: 0 auto;  
+  width: 100%;
+}
+
+.left_menu {
+  float: left;
+  position: fixed;
+  width: 150px;
+  height: 100%;
+  background-color: #CCCCCC;
+  border-right: 2px solid black;
+}
+
+.left_menu ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.left_menu li {
+  list-style: none;
+  border-bottom: 1px solid dimgrey;
+  padding: 10px;
+}
+
+.left_menu a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: black;
+}
+
+.right_content {
+  margin-left: 150px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
